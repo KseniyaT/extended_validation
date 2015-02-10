@@ -1,0 +1,176 @@
+html {
+  font-size: 100%;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+  font-size: 14px;
+  line-height: 1.25;
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: inherit;
+  font-family: inherit;
+  margin: 0 0 15px;
+  text-rendering: optimizelegibility;
+}
+h2 {
+  font-size: 34px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+p {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+small {
+  display: block;
+  font-size: 13px;
+}
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+  line-height: 0;
+}
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+.positioned {
+  position: relative;
+}
+.container {
+  width: 1170px;
+  margin: auto;
+}
+.container:before,
+.container:after {
+  content: "";
+  display: table;
+  line-height: 0;
+}
+.container:after {
+  clear: both;
+}
+
+.row {
+  padding-top: 45px;
+}
+.row:before,
+.row:after {
+  content: "";
+  display: table;
+  line-height: 0;
+}
+.row:after {
+  clear: both;
+}
+.align-center {
+  text-align: center;
+}
+
+
+.contact_us {
+  min-height: 500px;
+  color: #202D33;
+  padding-top: 78px;
+  text-align: center;
+}
+.contact_us h2 {
+  margin-bottom: 60px;
+}
+
+input,
+textarea {
+  background-color: #F5F5F5;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  padding: 17px;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.full-form {
+  width: 100%;
+}
+.full-form > div {
+  overflow: hidden;
+}
+.full-form > div .controls {
+  float: left;
+  width: 32%;
+  margin: 0 2% 30px 0;
+}
+.full-form > div input {
+  width: 100%;
+  margin: 0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.full-form > div input:active,
+.full-form > div input:focus,
+.full-form textarea:active,
+.full-form textarea:focus {
+  border-color: #28B1EB;
+}
+.full-form > div .controls:last-child {
+  margin-right: 0;
+}
+.full-form > div .error-message input {
+  border-color: #ED5564;
+}
+.full-form > div .error-message small {
+  color: #ED5564;
+  margin-bottom: -16px;
+}
+.full-form textarea {
+  width: 100%;
+  margin: 0 0 30px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.send {
+  background-color: #FFF;
+  border: 1px solid #28B1EB;
+  color: #28B1EB;
+  padding: 15px 46px;
+  cursor: pointer;
+  text-transform: uppercase;
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.send:hover {
+  background-color: #28B1EB;
+  border-color: #FFF;
+  color: #FFF;
+}
+.send:focus {
+  outline: none;
+}

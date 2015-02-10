@@ -1,0 +1,29 @@
+@media only screen and (max-width: 1210px) {
+  .container {
+    width: 100%;
+  }
+  .row,
+  .full-form > div  {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .full-form > div .controls {
+    width: 100%;
+    margin: 0 0 30px;
+  }
+  .contact_us {
+    padding-top: 30px;
+  }
+  .contact_us h2 {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .full-form textarea {
+    margin-bottom: 20px;
+  }
+}
+
